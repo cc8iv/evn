@@ -1,0 +1,229 @@
+/* MOBILE DEVICE */
+@media (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    body::after, section#philosophy::after {
+        background-attachment: scroll;
+        will-change: background-position;
+    }
+
+    section#philosophy::after {
+        background-size: 300%;
+    }
+
+    div.radial-box {
+        width: 300px;
+        height: 300px;
+    }
+
+    nav {
+        padding: 20px 5%;
+    }
+
+    .nav.container {
+        position: relative;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+        
+        background: #131418fb;
+        gap: 20px;
+    }
+
+    /* Show hamburger */
+    .hamburger {
+        display: flex;
+        position: absolute;
+        top: 20px;
+        right: 5%;
+    }
+
+    /* Hide menu initially */
+    .nav-list {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateY(-20px);
+        flex-direction: column;
+        width: 90%;
+        gap: 20px;
+        padding: 25px 0;
+        border-radius: 20px;
+
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.4s ease;
+    }
+
+    .nav-list .menu {
+        flex-direction: column;
+        justify-content: space-evenly;
+        background: none;
+        backdrop-filter: none;
+        border: none;
+
+    }
+
+    .nav-list .menu a:hover {
+        color: var(--primary-color);
+    }
+
+    /* Menu active */
+    .nav-list.active {
+        opacity: 1;
+        transform: translateX(-50%) translateY(10px);
+        pointer-events: auto;
+    }
+
+    /* Button moves into menu flow */
+    #get-quote {
+        /* position: absolute; */
+        display: block;
+        opacity: 0;
+        transition: all 0.4s ease;
+    }
+
+    .nav-list.active #get-quote {
+        display: block;
+        margin: 15px auto 0;
+        /* transform: translateX(-47%) translateY(250px); */
+        opacity: 1;
+    }
+
+    /* NAV SECTION END */
+
+    .header-text {
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+    }
+
+    /* HERO SECTION  */
+    section#hero {
+        height: auto;
+    }
+    .hero.container {
+        flex-direction: column;
+        gap: 50px;
+        height: auto;
+    }
+
+    .hero-desc-section, .hero-image-section {
+        width: 100%;
+    }
+
+    .hero-desc-section {
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-desc-section .add-ons {
+        width: 50%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .add-ons button a{
+        justify-content: center;
+    }
+
+    .hero-image-decor {
+        width: 70%;
+        height: 100%;
+        top: 0;
+    }
+
+    .hero-image-section img {
+        width: 80%;
+        height: fit-content;
+    }
+
+    .founder {
+        bottom: -5%;
+    }
+    /* HERO SECTION END */
+
+    /* ABOUT SECTION */
+    .about.container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .about-header-section, .about-desc-section{
+        width: 100%;
+        align-items: center;
+    }
+
+    .about-header-section {
+        gap: 10px;
+        text-align: center;
+    }
+
+
+    .about-image-section {
+        width: 100%;
+        height: 250px;
+    }
+
+    .about-image-section img{
+        width: 100%;
+        height: auto;
+    }
+
+    .about-text {
+        font-size: .857rem;
+        font-weight: 100;
+        line-height: 1.6rem;
+    }
+    /* ABOUT SECTION END */
+
+    /* SERVICES SECTION */
+    .service-card {
+        flex: 1 0 100%;
+    }
+    /* SERVICES SECTION END */
+
+    /* PORTFOLIO SECTION */
+    .projects-header {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .sub-projects-text {
+        width: 100%;
+    }
+
+    .project-card:nth-of-type(4){
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        gap: 30px;
+        height: 100%;
+    }
+
+    .project-card:nth-of-type(4) .project-desc {
+        width: 100%;
+    }
+
+    .project-card:nth-of-type(4) .project-link{
+        width: 100%;
+    }
+    /* PORTFOLIO SECTION END */
+
+    /* CONTACT SECTION */
+    .contact.container {
+        flex-direction: column;
+    }
+
+    .contact-header, .contact-form{
+        width: 100%;
+    }
+    /* CONTACT SECTION END */
+    
+}
+/* MOBILE DEVICE END */
