@@ -134,7 +134,7 @@
 
     .hero-image-section img {
         width: 80%;
-        height: fit-content;
+        height: 100%;
     }
 
     .founder {
