@@ -1,5 +1,5 @@
 /* MOBILE DEVICE */
-@media (max-width: 600px) {
+@media (max-width: 720px) {
     body{
         overflow-x: hidden;
     }
