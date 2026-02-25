@@ -365,7 +365,7 @@ section#hero {
 
 .hero-sub-text {
     font-size: 1rem;
-    font-weight: 100;
+    /* font-weight: 100; */
     color: #ffffff80;
 }
 
@@ -594,7 +594,6 @@ section#about {
 
 .about-text {
     font-size: 1.6lvw;
-    font-weight: 100;
     line-height: 2rem;
     color: var(--text-light-gray);
 }
@@ -620,7 +619,7 @@ section#about {
 
 .achievement-text {
     font-size: 0.75rem;
-    font-weight: 100;
+    font-weight: 500;
     color: var(--primary-color);
 }
 /* ABOUT SECTION END */
@@ -771,7 +770,7 @@ section#philosophy::after {
     width: 50%;
     min-height: 230px;
     font-size: 1.1rem;
-    font-weight: 100;
+    font-weight: 500;
     line-height: 2rem;
     color: var(--text-light-gray);
 
@@ -821,7 +820,7 @@ section#contact {
 
 .contact-header-text {
     font-size: 3.87lvw;
-    font-weight: 100;
+    /* font-weight: 100; */
     /* font-style: italic; */
 }
 
@@ -842,7 +841,7 @@ section#contact {
 
 .contact-sub-text{
     font-size: 1.1rem;
-    font-weight: 100;
+    /* font-weight: 100; */
     line-height: 2rem;
     color: var(--text-light-gray);
 }
