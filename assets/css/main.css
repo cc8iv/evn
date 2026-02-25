@@ -8,6 +8,7 @@
 }
 
 :root {
+    font-size: 18px;
     --primary-color: #C6A75E;
     --border-color: #ffffff19;
     --secondary-border-color: #C6A75E40;
