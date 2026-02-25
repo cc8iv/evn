@@ -4,11 +4,6 @@
         overflow-x: hidden;
     }
 
-    body::after, section#philosophy::after {
-        background-attachment: scroll;
-        will-change: background-position;
-    }
-
     section#philosophy::after {
         background-size: 300%;
     }

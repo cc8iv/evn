@@ -697,7 +697,6 @@ section#services {
 .service-card p {
     font-size: 0.85rem;
     line-height: 1.25rem;
-    font-weight: 100;
     color: var(--text-light-gray);
 }
 /* SERVICES SECTION END */
